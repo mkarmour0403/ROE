@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Character Creation</h1>
+        <form id="characterForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="race">Race:</label>
+            <select id="race" name="race" required>
+                <option value="human">Human</option>
+                <option value="dwarf">Dwarf</option>
+                <option value="elf">Elf</option>
+                <option value="orc">Orc</option>
+                <option value="gnome">Gnome</option>
+                <option value="ogre">Ogre</option>
+                <option value="leshy">Leshy</option>
+            </select>
+            <div id="raceDescription"></div>
+
+            <label for="class">Class:</label>
+            <select id="class" name="class" required>
+                <option value="adventurer">Adventurer</option>
+                <option value="alchemist">Alchemist</option>
+                <option value="archer">Archer</option>
+                <option value="armorsmith">Armorsmith</option>
+                <option value="armsman">Armsman</option>
+                <option value="artificer">Artificer</option>
+                <option value="assassin">Assassin</option>
+                <option value="axeman">Axeman</option>
+                <option value="bandit">Bandit</option>
+                <option value="barbarian">Barbarian</option>
+                <option value="barber">Barber</option>
+                <option value="bard">Bard</option>
+                <option value="berserker">Berserker</option>
+                <option value="blacksmith">Blacksmith</option>
+                <option value="bombardier">Bombardier</option>
+                <option value="bowyer">Bowyer</option>
+                <option value="brawler">Brawler</option>
+                <option value="brewer">Brewer</option>
+                <option value="cabalist">Cabalist</option>
+                <option value="calligrapher">Calligrapher</option>
+                <option value="cavalier">Cavalier</option>
+                <option value="cleric">Cleric</option>
+                <option value="commoner">Commoner</option>
+                <option value="conjurer">Conjurer</option>
+                <option value="crafter">Crafter</option>
+                <option value="crossbowman">Crossbowman</option>
+                <option value="darkPaladin">Dark Paladin</option>
+                <option value="demiurge">Demiurge</option>
+                <option value="diabolist">Diabolist</option>
+                <option value="druid">Druid</option>
+                <option value="duelist">Duelist</option>
+            </select>
+            <div id="classDescription"></div>
+
+            <button type="submit">Create Character</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
